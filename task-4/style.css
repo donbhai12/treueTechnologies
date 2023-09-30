@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    }
+
+body{
+   
+    align-items: center;
+    justify-content: center;
+    background-color:gainsboro;
+}
+h1{
+    display: block;
+    text-align: center;
+    margin-top: 30px ;
+    background-color: blue;
+    color: white ;
+}
+section{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+.card{
+    height: 300px ;
+    width: 250px ;
+    background-color: #fff;
+   
+    border-radius: 10px ;
+    text-align: center;
+}
+.card img{
+    height: 50% ;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px ;
+    border-radius: 15px ;
+    
+}
+.card button{
+    padding: 5px ;
+    margin: 10px ;
+    border: none ;
+    background-color: blue;
+    color: #fff;
+    font-weight: 200;
+    border-radius: 2px ;
+}
+.card h1{
+    margin-top: -10px ;
+}
+.card h3{
+    margin: 10px ;
+}
+*/
+audio{
+    display: none;
+} 
+
+.container{
+    border-radius: 10px 0px 10px 0px ;
+    display: flex;
+    height: 350px ;
+    width: 900px ;
+    border: 1px solid rgb(2, 2, 2);
+    padding: 20px;
+    background-color: cadetblue;
+}
+.card{
+    background-color: #fff;
+    height: 280px;
+    width: 190px;
+    border: 0.5px solid gray;
+    border-radius: 10px ;
+    margin: 10px ;
+}
+.card img{
+    height: 55%;
+    width:100%;
+    object-fit: cover;
+    object-fit: center;
+    border-radius: 10px 10px 0 0 ;
+}
+.card span{
+   display: block;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 9px;
+    margin-bottom: 8px ;
+    margin-left: 8px ;
+    
+}
+#btn1{
+   height: 30px ;
+   width: 80%;
+   margin-left: 18px ;
+   background-color:rgb(2, 138, 222) ;
+   border: none ;
+   border-radius: 7px ;
+   color: #fff;
+   font-weight: 700;
+   
+}
+
+#btn2{
+    color: grey;
+    height: 30px ;
+    width: 80%;
+    margin-left: 18px ;
+    margin-top: 5px;
+    border: none;
+    border-radius: 7px ;
+    font-weight: 700;
+    background-color:darkgray;
+ }
+ .card img:hover{
+    cursor: pointer;
+ }
+ .card h3:hover{
+    cursor: pointer;
+ }
+ .card button:hover{
+    cursor: pointer;
+ }
